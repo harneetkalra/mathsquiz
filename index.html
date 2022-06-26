@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Maths Quiz
+        </title>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+        <center>
+            <div class="maths" id="quiz">
+        <h1>Maths Quiz</h1>
+        <label>Enter First Number</label>
+        <input placeholder="Enter the number" type="number" id="first">
+        <br>
+        <br>
+        <label>Enter Second Number</label>
+        <input placeholder="Enter the number" type="number" id="second">
+        </div>
+        <div id="butt">
+        <button style="width:50px; height:40px; background-color:plum; font-size:30px;" onclick="add()">+</button>
+        <button style="width:50px; height:40px; background-color:plum; font-size:30px;" onclick="sub()">-</button>
+        <button style="width:50px; height:40px; background-color:plum; font-size:30px;" onclick="multiply()">*</button>
+        <button style="width:50px; height:40px; background-color:plum; font-size:30px;" onclick="division()">/</button>
+        </div>
+        <div class="maths" id="qu">
+            <label>Question</label>
+            <span id="ques"></span>
+            <br>
+            <input placeholder="Write your answer here" type="number" id="answer">
+            <p id="correct"></p>
+            <button style="width:30%; height:40px; background-color:plum; font-size:30px;" onclick="Check()">Check</button>
+        </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

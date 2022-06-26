@@ -1,0 +1,36 @@
+body{
+    background-image:url("background.jpeg")
+}
+h1{
+    background-image:url("backgoround.jpeg");
+    font-size:30px;
+}
+label{
+    font-size:25px;
+    background-color:lightpink;
+}
+input{
+    font-size:20px;
+    padding:10px;
+}
+.maths{
+    background-color:cyan;
+    width:400px;
+    padding:20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+#butt{
+    background-color: mediumturquoise;
+    width:400px;
+    padding:20px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#qu{
+    display:none;
+}
+#ques{
+    font-size:25px;
+    margin:10px;
+}
